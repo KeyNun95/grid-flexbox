@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica;
+  display: flex;
+  height: 100vh;
+  background-color: teal;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 220px;
+  background-color: white;
+  text-align: center;
+}
+
+#status {
+  text-align: right;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: grey;
+  padding: 10px 20px 0 0;
+}
+
+.image1 {
+  border-radius: 50%;
+  border: rgb(52, 158, 52) 4px solid;
+  height: 100px;
+  width: 100px;
+}
+
+h1, p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.2rem;
+  padding: 8px 0;
+}
+
+#profile {
+  background-color: lightgray;
+  height: 70px;
+}
+
+.image2 {
+  height: 40px;
+  width: 100px;
+}
+
+#payrate {
+  padding: 25px;
+  height: 90px;
+}
+
+#contact {
+  display: flex;
+  color: white;
+}
+
+#contact > p {
+  height: 50px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact > p:first-child {
+  background-color: rgb(110, 167, 110);
+}
+
+#contact > p:last-child {
+  background-color: rgb(52, 158, 52);
+}
